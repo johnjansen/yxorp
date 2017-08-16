@@ -6,7 +6,7 @@ A simple reverse proxy, intended to enable rolling updates of services behind it
 
 What this is:
 - a simple reverse proxy, that passes a request along to a one of a pool of services
-- a simple reverse proxy, that checks if the service is alive regularly
+- a simple reverse proxy, that checks if the service is alive regularly and avoids the unavailable
 
 What this is NOT:
 - an SSL endpoint
