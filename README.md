@@ -2,7 +2,7 @@
 
 ## !!! NOT READY FOR USE !!!
 
-A simple reverse proxy, intended to enable rolling updates of services behind it, not intended as a replacement for NGINX, HA PROXY etc
+A simple reverse proxy, intended to enable rolling updates of services behind it, not intended as a replacement for NGINX, HA PROXY etc, also not intended to support SSL ... if you want a big boy reverse proxy look at NGINX or HA PROXY
 
 ## Installation
 
