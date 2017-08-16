@@ -2,7 +2,17 @@
 
 ## !!! NOT READY FOR USE !!!
 
-A simple reverse proxy, intended to enable rolling updates of services behind it, not intended as a replacement for NGINX, HA PROXY etc, also not intended to support SSL ... if you want a big boy reverse proxy look at NGINX or HA PROXY
+A simple reverse proxy, intended to enable rolling updates of services behind it ... if you want a big boy reverse proxy look at NGINX or HA PROXY etc.
+
+What this is:
+- a simple reverse proxy, that passes a request along to a one of a pool of services
+- a simple reverse proxy, that checks if the service is alive regularly
+
+What this is NOT:
+- an SSL endpoint
+- a replacement for Nginx
+- a replacement for HAProxy
+- a session aware load balancer
 
 ## Installation
 
