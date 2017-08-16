@@ -1,0 +1,13 @@
+name: yxorp
+version: 0.1.0
+
+authors:
+  - John Jansen <john.jansen@me.com>
+
+targets:
+  yxorp:
+    main: src/yxorp.cr
+
+crystal: 0.23.1
+
+license: MIT
